@@ -11,7 +11,19 @@ ratings.csv contains all users' ratings of the books (a total of 6 Million ratin
 books.csv contains information on the books such as author, average rating, etc. \
 book_tags contains all tag_ids users have assigned to each book and corresponding tag_counts, while tags.csv contains the tag_names corresponding to the tag_ids. These two files are linked by the books’ ids. 
 
-## data cleaning:
+## Data visualization
+![Hybrid model](images/v1.PNG)
+![Hybrid model](images/v2.PNG)
+![Hybrid model](images/v3.PNG)
+![Hybrid model](images/v4.PNG)
+![Hybrid model](images/v6.PNG)
+![Hybrid model](images/v7.PNG)
+![Hybrid model](images/v8.PNG)
+![Hybrid model](images/v9.PNG)
+![Hybrid model](images/v10.PNG)
+![Hybrid model](images/v11.PNG)
+
+## Data cleaning:
 1. Books.csv doesn’t contain any duplicate books (checked the book title and authors columns for duplication). 
 2. Ratings.csv doesn’t contain  duplicate user ratings for the same book (checked for duplications in the user_id and book_id columns), as one user can only give a single rating for a book. 
 3.    Ratings.csv doesn’t contain any NaN values, and all the user_id and book_id are integers, and ratings are integers varying from 1 to 5. 
